@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Large binary files
+*.tar.gz
+*.pth
+*.pt
+*.ckpt
+
+# Source code (will be released after acceptance)
+src/
+experiments/
+*.py
+*.sh
+
+# Checkpoint directories
+checkpoints/
+
+# Data
+data/
+dataset/
+
+# OS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Logs (internal)
+logs_gpu_*/
+
+# Paper source
+paper_kbs/
+
+# Internal results
+results/results/backup_*/
+results/results/old_scaling/
+results/results/_archive_*/
+results/results/archive_*/
+results/extra_ckpts.tar.gz
+results/checkpoints_s42.tar.gz
+results/all_results.tar.gz
+results/kgrace_all_results.csv
+results/log_case.txt
+results/log_cold_start.txt
+results/log_hp.txt
+results/log_lr.txt
+results/results/all_results_full.csv
+results/results/monotone_bins.csv
+
+# Misc
+cov={cov:.4f}
+results_gpuA.tar.gz
+results_gpuA_new/
+results_gpuB/
+results_robustness_gpub/
+README_CODE.md
