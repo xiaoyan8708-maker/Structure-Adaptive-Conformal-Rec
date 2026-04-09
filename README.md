@@ -14,7 +14,7 @@ Official repository for the paper:
 > *Under review at Neurocomputing*
 
 <p align="center">
-  <img src="figures/framework.png" width="85%" alt="TRACE Framework Overview"/>
+  <img src="figures/framework.png" width="95%" alt="TRACE Framework Overview"/>
 </p>
 
 ## Overview
